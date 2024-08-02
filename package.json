@@ -1,0 +1,29 @@
+{
+  "name": "recrowd-challenge-deplano",
+  "version": "1.0.0",
+  "description": "small express.js app to expose APIs for deplano's interview with recrowd",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Depla97/recrowd-challenge-deplano.git"
+  },
+  "author": "Lorenzo Deplano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Depla97/recrowd-challenge-deplano/issues"
+  },
+  "homepage": "https://github.com/Depla97/recrowd-challenge-deplano#readme",
+  "dependencies": {
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
